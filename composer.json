@@ -1,0 +1,21 @@
+{
+    "name": "stickee/php-cs-fixer-config",
+    "description": "stickee's PHP CS Fixer config",
+    "require": {
+        "php": "^7.4|^8.1",
+        "friendsofphp/php-cs-fixer": "3.12",
+        "adamwojs/php-cs-fixer-phpdoc-force-fqcn": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Stickee\\PhpCsFixerConfig\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "stickeepaul",
+            "email": "paul.tibbetts@stickee.co.uk"
+        }
+    ]
+}

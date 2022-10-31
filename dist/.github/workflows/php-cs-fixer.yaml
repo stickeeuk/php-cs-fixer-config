@@ -1,0 +1,21 @@
+on: [pull_request]
+name: PHP-CS-Fixer
+
+jobs:
+  php-cs-fixer:
+    name: fix
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Install PHP CS Fixer
+        uses: php-actions/composer@v6
+        with:
+          args: --working-dir=tools/php-cs-fixer
+      - name: Run PHP-CS-Fixer
+        run: tools/php-cs-fixer/vendor/bin/php-cs-fixer fix
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "style: PHP CS Fixer"
+          file_pattern: "*.php"
