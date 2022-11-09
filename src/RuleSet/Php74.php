@@ -17,7 +17,7 @@ final class Php74 implements RuleSetInterface
     {
         return [
             '@PHP74Migration' => true,
-            '@PHP74Migration:risky' => true,
+            // '@PHP74Migration:risky' => true,
             '@PSR12' => true,
             '@PSR12:risky' => true,
             'AdamWojs/phpdoc_force_fqcn_fixer' => true,
