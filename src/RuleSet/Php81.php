@@ -17,7 +17,7 @@ final class Php81 implements RuleSetInterface
     {
         return [
             '@PHP81Migration' => true,
-            '@PHP80Migration:risky' => true,
+            // '@PHP80Migration:risky' => true,
             '@PSR12' => true,
             '@PSR12:risky' => true,
             'AdamWojs/phpdoc_force_fqcn_fixer' => true,
