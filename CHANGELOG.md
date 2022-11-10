@@ -1,3 +1,11 @@
+## [1.1.1](https://github.com/stickeeuk/php-cs-fixer-config/compare/v1.1.0...v1.1.1) (2022-11-10)
+
+
+### Bug Fixes
+
+* CI Git commit path ([76d98ed](https://github.com/stickeeuk/php-cs-fixer-config/commit/76d98ed3dca9f19928494f47e07ee566ea83a1be))
+* no newline in example config ([3646035](https://github.com/stickeeuk/php-cs-fixer-config/commit/3646035fc317cd72a04473664ca2824a8f014914))
+
 ## [v1.1.0](https://github.com/stickeeuk/php-cs-fixer-config/compare/v1.0.0...v1.1.0) (2022-11-09)
 
 
