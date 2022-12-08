@@ -1,3 +1,20 @@
+# [2.0.0](https://github.com/stickeeuk/php-cs-fixer-config/compare/v1.1.1...v2.0.0) (2022-12-08)
+
+
+### Bug Fixes
+
+* example workflow ([e9ec796](https://github.com/stickeeuk/php-cs-fixer-config/commit/e9ec7967daae90dd90b987d24fc3924f3e7c6c5d))
+
+
+### Features
+
+* PHP 8.1 only ([a3f9b54](https://github.com/stickeeuk/php-cs-fixer-config/commit/a3f9b5469e6f3e9fc072a638fd709b35b4f169a2))
+
+
+### BREAKING CHANGES
+
+* drops support for PHP 7.4
+
 ## [1.1.1](https://github.com/stickeeuk/php-cs-fixer-config/compare/v1.1.0...v1.1.1) (2022-11-10)
 
 
