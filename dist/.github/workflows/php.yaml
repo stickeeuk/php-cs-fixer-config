@@ -1,5 +1,8 @@
-on: [pull_request]
-name: PHP-CS-Fixer
+on:
+  pull_request:
+    paths:
+      - '**.php'
+name: PHP
 
 jobs:
   php-cs-fixer:
