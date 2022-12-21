@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/stickeeuk/php-cs-fixer-config/compare/v1.1.1...v1.1.2) (2022-12-21)
+
+
+### Bug Fixes
+
+* **rule:** removed visibility_required override ([3149dba](https://github.com/stickeeuk/php-cs-fixer-config/commit/3149dbaf242788ff8c7a75b0ec4aad4d908bab4a))
+
 ## [1.1.1](https://github.com/stickeeuk/php-cs-fixer-config/compare/v1.1.0...v1.1.1) (2022-11-10)
 
 
