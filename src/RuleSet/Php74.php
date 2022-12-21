@@ -254,9 +254,6 @@ final class Php74 implements RuleSetInterface
             'trailing_comma_in_multiline' => true,
             'trim_array_spaces' => true,
             'unary_operator_spaces' => true,
-            'visibility_required' => [
-                'elements' => ['method', 'property'],
-            ],
             'whitespace_after_comma_in_array' => true,
         ];
     }
