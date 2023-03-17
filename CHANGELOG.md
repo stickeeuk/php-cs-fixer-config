@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/stickeeuk/php-cs-fixer-config/compare/v2.0.1...v2.1.0) (2023-03-17)
+
+
+### Features
+
+* PHP 8.2 ruleset ([3217dc4](https://github.com/stickeeuk/php-cs-fixer-config/commit/3217dc4df56815d2a454a4aa7b370e1a640c95b2))
+
 ## [2.0.1](https://github.com/stickeeuk/php-cs-fixer-config/compare/v2.0.0...v2.0.1) (2023-01-09)
 
 
