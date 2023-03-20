@@ -13,16 +13,16 @@ interface RuleSetInterface
      */
     public function name(): string;
 
-    /** 
+    /**
      * Returns an array of rules along with their configuration.
-     * 
+     *
      * @return array<string, array|bool>
-    */
+     */
     public function rules(): array;
 
     /**
      * Returns any custom fixers in use.
-     * 
+     *
      * @return iterable<array-key, FixerInterface>
      */
     public function getCustomFixers(): iterable;
