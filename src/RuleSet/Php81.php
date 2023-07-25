@@ -239,7 +239,6 @@ final class Php81 implements RuleSetInterface
             'simple_to_complex_string_variable' => true,
             'simplified_null_return' => false,
             'single_blank_line_at_eof' => true,
-            'single_blank_line_before_namespace' => true,
             'single_class_element_per_statement' => true,
             'single_import_per_statement' => true,
             'single_line_comment_style' => true,
