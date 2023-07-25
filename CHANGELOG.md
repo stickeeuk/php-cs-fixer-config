@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/stickeeuk/php-cs-fixer-config/compare/v2.1.0...v2.1.1) (2023-07-25)
+
+
+### Bug Fixes
+
+* deprecated single_blank_line_before_namespace ([eaf078f](https://github.com/stickeeuk/php-cs-fixer-config/commit/eaf078ff99d79fe0c79aa40305a1a072298007d3))
+
 # [2.1.0](https://github.com/stickeeuk/php-cs-fixer-config/compare/v2.0.1...v2.1.0) (2023-03-17)
 
 
