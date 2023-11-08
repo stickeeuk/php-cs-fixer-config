@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/stickeeuk/php-cs-fixer-config/compare/v2.1.1...v2.2.0) (2023-11-08)
+
+
+### Features
+
+* PER CS 2.0 ([3c1d054](https://github.com/stickeeuk/php-cs-fixer-config/commit/3c1d05429651ba0810d541ef4a003ec6103d5a0f))
+
 ## [2.1.1](https://github.com/stickeeuk/php-cs-fixer-config/compare/v2.1.0...v2.1.1) (2023-07-25)
 
 
