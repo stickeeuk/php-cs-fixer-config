@@ -4,17 +4,17 @@ declare(strict_types=1);
 
 namespace Stickee\PhpCsFixerConfig\RuleSet;
 
-final class Php82 extends StickeeBaseline
+final class Php83 extends StickeeBaseline
 {
     public function name(): string
     {
-        return 'stickee (PHP 8.2)';
+        return 'stickee (PHP 8.3)';
     }
 
     public function rules(): array
     {
         return array_merge([
-            '@PHP82Migration' => true,
+            '@PHP83Migration' => true,
         ], parent::rules());
     }
 }
