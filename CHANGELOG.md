@@ -1,3 +1,10 @@
+## [2.3.2](https://github.com/stickeeuk/php-cs-fixer-config/compare/v2.3.1...v2.3.2) (2024-01-10)
+
+
+### Bug Fixes
+
+* temporarily disable fully_qualified_strict_types rule ([d708ce8](https://github.com/stickeeuk/php-cs-fixer-config/commit/d708ce8a84475afa318555ca63dcc4d4d5f16e0f))
+
 ## [2.3.1](https://github.com/stickeeuk/php-cs-fixer-config/compare/v2.3.0...v2.3.1) (2024-01-10)
 
 
