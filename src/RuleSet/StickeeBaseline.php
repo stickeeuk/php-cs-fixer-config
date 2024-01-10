@@ -67,7 +67,7 @@ abstract class StickeeBaseline implements RuleSetInterface
             'final_internal_class' => true,
             'fopen_flag_order' => true,
             'fopen_flags' => true,
-            'fully_qualified_strict_types' => true,
+            // 'fully_qualified_strict_types' => true,
             'function_to_constant' => true,
             'general_phpdoc_tag_rename' => true,
             'heredoc_indentation' => true,
