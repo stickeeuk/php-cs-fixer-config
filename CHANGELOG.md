@@ -1,3 +1,10 @@
+## [2.3.1](https://github.com/stickeeuk/php-cs-fixer-config/compare/v2.3.0...v2.3.1) (2024-01-10)
+
+
+### Bug Fixes
+
+* lock PHP CS Fixer to v3.45 ([f4a919e](https://github.com/stickeeuk/php-cs-fixer-config/commit/f4a919edd7c1f529faa8b67e70bf586b79fcd5b7))
+
 # [2.3.0](https://github.com/stickeeuk/php-cs-fixer-config/compare/v2.2.0...v2.3.0) (2023-11-30)
 
 
