@@ -1,3 +1,10 @@
+# [2.5.0](https://github.com/stickeeuk/php-cs-fixer-config/compare/v2.4.0...v2.5.0) (2024-07-19)
+
+
+### Features
+
+* change in docblock strategy ([#39](https://github.com/stickeeuk/php-cs-fixer-config/issues/39)) ([31237fb](https://github.com/stickeeuk/php-cs-fixer-config/commit/31237fb21cb662372a43a91c7981d07eaf801fd3))
+
 ## [2.4.0](https://github.com/stickeeuk/php-cs-fixer-config/compare/v2.3.2...v2.4.0) (2024-07-19)
 
 
