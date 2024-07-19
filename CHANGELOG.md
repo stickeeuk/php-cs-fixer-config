@@ -1,3 +1,9 @@
+## [2.4.0](https://github.com/stickeeuk/php-cs-fixer-config/compare/v2.3.2...v2.4.0) (2024-07-19)
+
+
+### Features
+* PHP 8.3 now required and is set as the de facto baseline ([88b4e89](https://github.com/stickeeuk/php-cs-fixer-config/commit/88b4e8929e974aaf39eac9bb723470bad1337cbd))
+
 ## [2.3.2](https://github.com/stickeeuk/php-cs-fixer-config/compare/v2.3.1...v2.3.2) (2024-01-10)
 
 
