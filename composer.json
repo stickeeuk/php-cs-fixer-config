@@ -2,7 +2,7 @@
     "name": "stickee/php-cs-fixer-config",
     "description": "stickee's PHP CS Fixer config",
     "require": {
-        "php": "^8.1",
+        "php": "^8.3",
         "friendsofphp/php-cs-fixer": "3.53.0",
         "adamwojs/php-cs-fixer-phpdoc-force-fqcn": "^2.0"
     },
@@ -16,6 +16,10 @@
         {
             "name": "stickeepaul",
             "email": "paul.tibbetts@stickee.co.uk"
+        },
+        {
+            "name": "stickeeoliver",
+            "email": "oliver.earl@stickee.co.uk"
         }
     ]
 }
