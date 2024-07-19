@@ -3,7 +3,7 @@
     "description": "stickee's PHP CS Fixer config",
     "require": {
         "php": "^8.3",
-        "friendsofphp/php-cs-fixer": "3.53.0",
+        "friendsofphp/php-cs-fixer": "3.59.3",
         "adamwojs/php-cs-fixer-phpdoc-force-fqcn": "^2.0"
     },
     "license": "MIT",
