@@ -19,7 +19,7 @@ $overrideRules = [
 ];
 
 $config = PhpCsFixerConfig\Factory::fromRuleSet(
-    new PhpCsFixerConfig\RuleSet\Php81(),
+    new PhpCsFixerConfig\RuleSet\Php83(),
     $overrideRules
 );
 
