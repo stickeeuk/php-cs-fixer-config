@@ -178,7 +178,7 @@ abstract class StickeeBaseline implements RuleSetInterface
             'phpdoc_to_comment' => false,
             'phpdoc_trim_consecutive_blank_line_separation' => true,
             'phpdoc_trim' => true,
-            'phpdoc_types_order' => true,
+            'phpdoc_types_order' => ['null_adjustment' => 'always_last', 'sort_algorithm' => 'none'],
             'phpdoc_types' => true,
             'phpdoc_var_annotation_correct_order' => true,
             'phpdoc_var_without_name' => true,
