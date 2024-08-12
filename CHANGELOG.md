@@ -1,3 +1,10 @@
+# [2.6.0](https://github.com/stickeeuk/php-cs-fixer-config/compare/v2.5.0...v2.6.0) (2024-08-12)
+
+
+### Features
+
+* null type always last in docblock '[@return](https://github.com/return)' ([89f1e8d](https://github.com/stickeeuk/php-cs-fixer-config/commit/89f1e8da8ff1e61c57ac799f89a44288658b993a))
+
 # [2.5.0](https://github.com/stickeeuk/php-cs-fixer-config/compare/v2.4.0...v2.5.0) (2024-07-19)
 
 
