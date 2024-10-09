@@ -1,3 +1,10 @@
+# [2.7.0](https://github.com/stickeeuk/php-cs-fixer-config/compare/v2.6.0...v2.7.0) (2024-10-09)
+
+
+### Features
+
+* enable parallel processing ([5ecc72e](https://github.com/stickeeuk/php-cs-fixer-config/commit/5ecc72ef132b5f103f02953cc92b19330dba3ca1))
+
 # [2.6.0](https://github.com/stickeeuk/php-cs-fixer-config/compare/v2.5.0...v2.6.0) (2024-08-12)
 
 
