@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use PhpCsFixer\Runner\Parallel\ParallelConfigFactory;
 use Stickee\PhpCsFixerConfig;
 
 $finder = PhpCsFixer\Finder::create()
@@ -11,8 +12,7 @@ $finder = PhpCsFixer\Finder::create()
     ->in(__DIR__ . '/tests')
     ->append([
         __DIR__ . '/.php-cs-fixer.dist.php',
-    ])
-;
+    ]);
 
 $overrideRules = [
     'ordered_class_elements' => ['order' => ['use_trait']],
@@ -25,7 +25,8 @@ $config = PhpCsFixerConfig\Factory::fromRuleSet(
 
 $config
     ->setFinder($finder)
-    ->setCacheFile(__DIR__ . '/.php-cs-fixer.cache')
-;
+    ->setCacheFile(__DIR__ . '/.php-cs-fixer.cache');
+
+$config->setParallelConfig(ParallelConfigFactory::detect());
 
 return $config;
