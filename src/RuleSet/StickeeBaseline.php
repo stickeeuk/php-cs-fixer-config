@@ -138,6 +138,7 @@ abstract class StickeeBaseline implements RuleSetInterface
             'non_printable_character' => ['use_escape_sequences_in_strings' => true],
             'normalize_index_brace' => true,
             'not_operator_with_successor_space' => true,
+            'nullable_type_declaration' => true,
             'object_operator_without_whitespace' => true,
             'operator_linebreak' => ['only_booleans' => true],
             'ordered_class_elements' => [
