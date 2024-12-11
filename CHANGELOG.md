@@ -1,3 +1,18 @@
+# [2.8.0](https://github.com/stickeeuk/php-cs-fixer-config/compare/v2.7.0...v2.8.0) (2024-12-11)
+
+
+### Features
+
+* **rule:** fully qualified strict types = false ([02c4294](https://github.com/stickeeuk/php-cs-fixer-config/commit/02c42946307478fd33c631a6ca15bce9ff607efa))
+* **rule:** nullable type declaration ([017c708](https://github.com/stickeeuk/php-cs-fixer-config/commit/017c708a41702b36ab17fdb3fb5096ebd5899a06))
+* **rule:** nullable type declaration for default null value ([f88fbd5](https://github.com/stickeeuk/php-cs-fixer-config/commit/f88fbd5152825ccc0474a53b062ff93362f64826))
+* **rule:** ordered interfaces ([665df89](https://github.com/stickeeuk/php-cs-fixer-config/commit/665df89c18f91ba27073a1a174d9b3e6f274def5))
+* **rule:** ordered traits ([2711930](https://github.com/stickeeuk/php-cs-fixer-config/commit/27119302323b9eb6e9364dcd3302b1eabe9d249e))
+* **rule:** self static accessor ([b12db5f](https://github.com/stickeeuk/php-cs-fixer-config/commit/b12db5f5e6e1061fc58daa43fc836945b93a272f))
+* **rule:** single space around construct ([fb4f498](https://github.com/stickeeuk/php-cs-fixer-config/commit/fb4f498024c1ebc5e456410ed4a691483cb8b223))
+* **rule:** types spaces ([298205d](https://github.com/stickeeuk/php-cs-fixer-config/commit/298205da65ed878b46dbaa904b5369ca071ba1c5))
+* **rule:** yoda style ([bbe39c0](https://github.com/stickeeuk/php-cs-fixer-config/commit/bbe39c0a1ddc8f3301e2502842bd90665e10798c))
+
 # [2.7.0](https://github.com/stickeeuk/php-cs-fixer-config/compare/v2.6.0...v2.7.0) (2024-10-09)
 
 
