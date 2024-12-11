@@ -190,6 +190,7 @@ abstract class StickeeBaseline implements RuleSetInterface
             'psr_autoloading' => true,
             'random_api_migration' => true,
             'self_accessor' => true,
+            'self_static_accessor' => true,
             'semicolon_after_instruction' => true,
             'simple_to_complex_string_variable' => true,
             'simplified_null_return' => false,
