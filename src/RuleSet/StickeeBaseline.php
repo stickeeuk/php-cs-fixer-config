@@ -196,6 +196,7 @@ abstract class StickeeBaseline implements RuleSetInterface
             'simplified_null_return' => false,
             'single_line_comment_style' => true,
             'single_quote' => true,
+            'single_space_around_construct' => true,
             'space_after_semicolon' => true,
             'standardize_not_equals' => true,
             'ternary_to_null_coalescing' => true,
