@@ -163,6 +163,7 @@ abstract class StickeeBaseline implements RuleSetInterface
                 ],
             ],
             'ordered_interfaces' => true,
+            'ordered_traits' => true,
             'phpdoc_add_missing_param_annotation' => ['only_untyped' => true],
             'phpdoc_align' => ['align' => 'left'],
             'phpdoc_indent' => true,
