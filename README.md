@@ -5,21 +5,19 @@ Provides a [PHP CS Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) config f
 ## Installation
 
 ```shell
-mkdir -p tools/php-cs-fixer
-composer require --working-dir=tools/php-cs-fixer stickee/php-cs-fixer-config
-cp tools/php-cs-fixer/vendor/stickee/php-cs-fixer-config/dist/.php-cs-fixer.dist.php .php-cs-fixer.dist.php
+composer require --dev stickee/php-cs-fixer-config
+cp vendor/stickee/php-cs-fixer-config/dist/.php-cs-fixer.dist.php .php-cs-fixer.dist.php
 ```
 
-You must commit this new directory and the `.php-cs-fixer.dist.php` config file.
+You must commit the `.php-cs-fixer.dist.php` config file.
 
 You must add `.php-cs-fixer.cache` to your `.gitignore` file.
 
-_[Why do we install PHP CS Fixer into its own directory?](https://github.com/FriendsOfPHP/PHP-CS-Fixer#installation)_
 
 ## Usage
 
 ```shell
-tools/php-cs-fixer/bin/php-cs-fixer fix
+vendor/bin/php-cs-fixer fix
 ```
 
 ### Overrides
@@ -44,13 +42,13 @@ You can use PHP CS Fixer in combination with [Husky](https://typicode.github.io/
 
 - install [Husky](https://typicode.github.io/husky/#/?id=automatic-recommended) into your project
 - install [Lint Staged](https://github.com/okonet/lint-staged#installation-and-setup) into your project
-- `cp tools/php-cs-fixer/vendor/stickee/php-cs-fixer-config/dist/.husky/pre-commit .husky/pre-commit`
-- `cp tools/php-cs-fixer/vendor/stickee/php-cs-fixer-config/dist/.lintstagedrc.json .lintstagedrc.json`
+- `cp vendor/stickee/php-cs-fixer-config/dist/.husky/pre-commit .husky/pre-commit`
+- `cp vendor/stickee/php-cs-fixer-config/dist/.lintstagedrc.json .lintstagedrc.json`
 
 
 ### CI
 
-An example GitHub action file is included at `tools/php-cs-fixer/vendor/stickee/php-cs-fixer-config/dist/.github/workflows/php-cs-fixer.yaml`.
+An example GitHub action file is included at `vendor/stickee/php-cs-fixer-config/dist/.github/workflows/php-cs-fixer.yaml`.
 
 This will run PHP CS Fixer on PRs and new commits to those PRs.
 
@@ -58,7 +56,7 @@ In theory this is not necessary since developers should be linting their code us
 
 ## Rules
 
-The available RuleSets can be found at `tools/php-cs-fixer/vendor/stickee/php-cs-fixer-config/src/RuleSet/`.
+The available RuleSets can be found at `vendor/stickee/php-cs-fixer-config/src/RuleSet/`.
 
 You can probably \[ctrl\] + click the class in the `.php-cs-fixer.dist.php` file to get to it in your editor.
 
@@ -68,7 +66,7 @@ You can use either https://mlocati.github.io/php-cs-fixer-configurator/#version:
 
 ### CLI description (faster)
 
-Alternatively you can run `tools/php-cs-fixer/vendor/bin/php-cs-fixer describe <rule-or-set-name>`.
+Alternatively you can run `vendor/bin/php-cs-fixer describe <rule-or-set-name>`.
 
 ## Credits
 
