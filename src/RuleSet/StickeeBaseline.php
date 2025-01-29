@@ -137,7 +137,6 @@ abstract class StickeeBaseline implements RuleSetInterface
             'no_whitespace_before_comma_in_array' => true,
             'non_printable_character' => ['use_escape_sequences_in_strings' => true],
             'normalize_index_brace' => true,
-            'not_operator_with_successor_space' => true,
             'nullable_type_declaration_for_default_null_value' => true,
             'nullable_type_declaration' => true,
             'object_operator_without_whitespace' => true,
@@ -200,6 +199,7 @@ abstract class StickeeBaseline implements RuleSetInterface
             'single_space_around_construct' => true,
             'space_after_semicolon' => true,
             'standardize_not_equals' => true,
+            'Stickee/not_operator_with_successor_space' => ['space' => 'none'],
             'ternary_to_null_coalescing' => true,
             'trailing_comma_in_multiline' => true,
             'trim_array_spaces' => true,
@@ -219,6 +219,7 @@ abstract class StickeeBaseline implements RuleSetInterface
     {
         yield from [
             new \AdamWojs\PhpCsFixerPhpdocForceFQCN\Fixer\Phpdoc\ForceFQCNFixer(),
+            new \Stickee\PhpCsFixerConfig\CustomFixers\NotOperatorWithSuccessorSpaceFixer(),
         ];
     }
 
