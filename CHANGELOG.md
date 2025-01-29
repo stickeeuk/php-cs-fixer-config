@@ -1,3 +1,11 @@
+# [2.9.0](https://github.com/stickeeuk/php-cs-fixer-config/compare/v2.8.0...v2.9.0) (2025-01-29)
+
+
+### Features
+
+* **rule:** add custom not operator with successor space rule with option to remove space ([d6faf2a](https://github.com/stickeeuk/php-cs-fixer-config/commit/d6faf2a6a1c15c1f8b9e6eefeb61f72963aa9a87))
+* **rule:** remove not_operator_with_successor_space ([a5cf600](https://github.com/stickeeuk/php-cs-fixer-config/commit/a5cf600f9f30e76e8005bbf75e0febd24302c4e1))
+
 # [2.8.0](https://github.com/stickeeuk/php-cs-fixer-config/compare/v2.7.0...v2.8.0) (2024-12-11)
 
 
