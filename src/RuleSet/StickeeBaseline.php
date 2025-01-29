@@ -199,6 +199,7 @@ abstract class StickeeBaseline implements RuleSetInterface
             'single_space_around_construct' => true,
             'space_after_semicolon' => true,
             'standardize_not_equals' => true,
+            'Stickee/not_operator_with_successor_space' => ['space' => 'none'],
             'ternary_to_null_coalescing' => true,
             'trailing_comma_in_multiline' => true,
             'trim_array_spaces' => true,
@@ -218,6 +219,7 @@ abstract class StickeeBaseline implements RuleSetInterface
     {
         yield from [
             new \AdamWojs\PhpCsFixerPhpdocForceFQCN\Fixer\Phpdoc\ForceFQCNFixer(),
+            new \Stickee\PhpCsFixerConfig\CustomFixers\NotOperatorWithSuccessorSpaceFixer(),
         ];
     }
 
