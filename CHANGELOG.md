@@ -1,3 +1,10 @@
+## [2.9.1](https://github.com/stickeeuk/php-cs-fixer-config/compare/v2.9.0...v2.9.1) (2025-01-30)
+
+
+### Bug Fixes
+
+* deprecated rule escape_implicit_backslashes ([29cea74](https://github.com/stickeeuk/php-cs-fixer-config/commit/29cea741f5c646ac6ef2d7e459c6939091e5998e))
+
 # [2.9.0](https://github.com/stickeeuk/php-cs-fixer-config/compare/v2.8.0...v2.9.0) (2025-01-29)
 
 
