@@ -34,18 +34,6 @@ This has been added to help PR reviewers see only what has been changed when lin
 
 Once you are happy that your project has been linted correctly you may remove this override to use the stickee settings for this rule which are stricter and order more elements.
 
-### Pre-Commit Hook
-
-You can use PHP CS Fixer in combination with [Husky](https://typicode.github.io/husky/) and [Lint Staged](https://github.com/okonet/lint-staged) to lint only git staged PHP files.
-
-#### Installation
-
-- install [Husky](https://typicode.github.io/husky/#/?id=automatic-recommended) into your project
-- install [Lint Staged](https://github.com/okonet/lint-staged#installation-and-setup) into your project
-- `cp vendor/stickee/php-cs-fixer-config/dist/.husky/pre-commit .husky/pre-commit`
-- `cp vendor/stickee/php-cs-fixer-config/dist/.lintstagedrc.json .lintstagedrc.json`
-
-
 ### CI
 
 An example GitHub action file is included at `vendor/stickee/php-cs-fixer-config/dist/.github/workflows/php-cs-fixer.yaml`.
