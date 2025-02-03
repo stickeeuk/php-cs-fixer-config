@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/stickeeuk/php-cs-fixer-config/compare/v3.0.0...v3.0.1) (2025-02-03)
+
+
+### Bug Fixes
+
+* missing distributable config ([c4a11fa](https://github.com/stickeeuk/php-cs-fixer-config/commit/c4a11fa6c065b6a6dbc3d7a19e27efbcdbf6a242))
+
 # [3.0.0](https://github.com/stickeeuk/php-cs-fixer-config/compare/v2.9.1...v3.0.0) (2025-02-03)
 
 
