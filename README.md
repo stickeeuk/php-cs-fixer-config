@@ -7,10 +7,10 @@ Provides a [PHP CS Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) config f
 ```shell
 mkdir -p tools/php-cs-fixer
 composer require --working-dir=tools/php-cs-fixer stickee/php-cs-fixer-config
-cp tools/php-cs-fixer/vendor/stickee/php-cs-fixer-config/dist/.php-cs-fixer.dist.php .php-cs-fixer.dist.php
+cp tools/php-cs-fixer/vendor/stickee/php-cs-fixer-config/dist/.php-cs-fixer.php .php-cs-fixer.php
 ```
 
-You must commit this new directory and the `.php-cs-fixer.dist.php` config file.
+You must commit this new directory and the `.php-cs-fixer.php` config file.
 
 You must add `.php-cs-fixer.cache` to your `.gitignore` file.
 
@@ -24,7 +24,7 @@ tools/php-cs-fixer/bin/php-cs-fixer fix
 
 ### Overrides
 
-You can override any of the rules or add your own by adding them to the `$overrideRules` array in the `.php-cs-fixer.dist.php` file.
+You can override any of the rules or add your own by adding them to the `$overrideRules` array in the `.php-cs-fixer.php` file.
 
 See [here](https://mlocati.github.io/php-cs-fixer-configurator) for a detailed description of available rules and their options.
 
@@ -60,7 +60,7 @@ In theory this is not necessary since developers should be linting their code us
 
 The available RuleSets can be found at `tools/php-cs-fixer/vendor/stickee/php-cs-fixer-config/src/RuleSet/`.
 
-You can probably \[ctrl\] + click the class in the `.php-cs-fixer.dist.php` file to get to it in your editor.
+You can probably \[ctrl\] + click the class in the `.php-cs-fixer.php` file to get to it in your editor.
 
 ### Web description (prettier)
 
