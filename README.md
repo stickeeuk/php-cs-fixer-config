@@ -40,8 +40,6 @@ An example GitHub action file is included at `vendor/stickee/php-cs-fixer-config
 
 This will run PHP CS Fixer on PRs and new commits to those PRs.
 
-In theory this is not necessary since developers should be linting their code using the above mentioned pre-commit hook, however it ensures that PRs contain linted code in case a developer skips the pre-commit hook.
-
 ## Rules
 
 The available RuleSets can be found at `vendor/stickee/php-cs-fixer-config/src/RuleSet/`.
