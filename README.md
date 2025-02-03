@@ -6,10 +6,10 @@ Provides a [PHP CS Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) config f
 
 ```shell
 composer require --dev stickee/php-cs-fixer-config
-cp vendor/stickee/php-cs-fixer-config/dist/.php-cs-fixer.dist.php .php-cs-fixer.dist.php
+cp vendor/stickee/php-cs-fixer-config/dist/.php-cs-fixer.php .php-cs-fixer.php
 ```
 
-You must commit the `.php-cs-fixer.dist.php` config file.
+You must commit the `.php-cs-fixer.php` config file.
 
 You must add `.php-cs-fixer.cache` to your `.gitignore` file.
 
@@ -22,7 +22,7 @@ vendor/bin/php-cs-fixer fix
 
 ### Overrides
 
-You can override any of the rules or add your own by adding them to the `$overrideRules` array in the `.php-cs-fixer.dist.php` file.
+You can override any of the rules or add your own by adding them to the `$overrideRules` array in the `.php-cs-fixer.php` file.
 
 See [here](https://mlocati.github.io/php-cs-fixer-configurator) for a detailed description of available rules and their options.
 
@@ -58,7 +58,7 @@ In theory this is not necessary since developers should be linting their code us
 
 The available RuleSets can be found at `vendor/stickee/php-cs-fixer-config/src/RuleSet/`.
 
-You can probably \[ctrl\] + click the class in the `.php-cs-fixer.dist.php` file to get to it in your editor.
+You can probably \[ctrl\] + click the class in the `.php-cs-fixer.php` file to get to it in your editor.
 
 ### Web description (prettier)
 
