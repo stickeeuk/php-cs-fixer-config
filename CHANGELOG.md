@@ -1,25 +1,19 @@
 # [3.0.0](https://github.com/stickeeuk/php-cs-fixer-config/compare/v2.9.1...v3.0.0) (2025-02-03)
 
 
-### Bug Fixes
-
-* missing config ([49db4b0](https://github.com/stickeeuk/php-cs-fixer-config/commit/49db4b0833d71c7f4d38ae2aedfe15a71b3e9bde))
-* path of linstaged now installed into root ([d93a5d1](https://github.com/stickeeuk/php-cs-fixer-config/commit/d93a5d1d021742eff6594dd30b154698b4b1338e))
-
-
 ### Features
 
-* rename php cs fixer config file ([fcb390f](https://github.com/stickeeuk/php-cs-fixer-config/commit/fcb390f5784b0394dd3168308e0c7834040cd732))
+* rename php cs fixer config file ([fcb390f](https://github.com/stickeeuk/php-cs-fixer-config/commit/fcb390f5784b0394dd3168308e0c7834040cd732)) to work with Laravel Shift
+* removes Husky and Lintstaged code
+* should now be installed into the root directory, not a tools directory, so the README.md was updated
 
 
 ### BREAKING CHANGES
 
-* releasing as a new major version to communicate
-this change involves the user making a change.
+* releasing as a new major version to communicate the rename of the config file means the user "should" need to do something.
 
-I know that it doesn't necessarily mean the user has to make a change,
-but this is the closest thing to a major change that I can use to tell
-semantic release to bump the major version of the package.
+This is more like a "marketing version release" that matches the similar "marketing" release of Canary v4.
+
 
 ## [2.9.1](https://github.com/stickeeuk/php-cs-fixer-config/compare/v2.9.0...v2.9.1) (2025-01-30)
 
