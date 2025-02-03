@@ -19,7 +19,7 @@ class NotOperatorWithSuccessorSpaceFixer extends AbstractFixer implements Config
     use ConfigurableFixerTrait;
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function getName(): string
     {
@@ -46,8 +46,8 @@ if ( !$bar) {
     echo "Help!";
 }
 ',
-                ['space' => 'none']
-                )
+                    ['space' => 'none']
+                ),
             ]
         );
     }
@@ -69,14 +69,14 @@ if ( !$bar) {
 
     protected function applyFix(\SplFileInfo $file, Tokens $tokens): void
     {
-        for ($index = $tokens->count() - 1; $index >= 0; --$index) {
+        for ($index = $tokens->count() - 1; $index >= 0; $index--) {
             $token = $tokens[$index];
 
             if ($token->equals('!')) {
                 if ($this->configuration['space'] === 'one') {
                     $this->addSpace($tokens, $index);
                 }
-                
+
                 if ($this->configuration['space'] === 'none') {
                     $this->removeSpace($tokens, $index);
                 }
