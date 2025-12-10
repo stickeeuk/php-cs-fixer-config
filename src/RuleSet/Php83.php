@@ -14,7 +14,7 @@ final class Php83 extends StickeeBaseline
     public function rules(): array
     {
         return array_merge([
-            '@PHP83Migration' => true,
+            '@PHP8x3Migration' => true,
         ], parent::rules());
     }
 }
