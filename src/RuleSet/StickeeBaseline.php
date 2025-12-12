@@ -11,8 +11,8 @@ abstract class StickeeBaseline implements RuleSetInterface
     public function rules(): array
     {
         return [
-            '@PER-CS2.0' => true,
-            '@PER-CS2.0:risky' => true,
+            '@PER-CS2x0' => true,
+            '@PER-CS2x0:risky' => true,
             'AdamWojs/phpdoc_force_fqcn_fixer' => true,
             'align_multiline_comment' => [
                 'comment_type' => 'all_multiline',
