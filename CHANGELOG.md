@@ -1,3 +1,10 @@
+## [3.0.2](https://github.com/stickeeuk/php-cs-fixer-config/compare/v3.0.1...v3.0.2) (2026-01-19)
+
+
+### Bug Fixes
+
+* misc ([40e0208](https://github.com/stickeeuk/php-cs-fixer-config/commit/40e0208a1ced5447915ffe93fb1faa852ed0d7c1))
+
 ## [3.0.1](https://github.com/stickeeuk/php-cs-fixer-config/compare/v3.0.0...v3.0.1) (2025-02-03)
 
 
